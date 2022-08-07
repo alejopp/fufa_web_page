@@ -1,7 +1,18 @@
-body {
+html{
+    font-size: 62.5%;
+}
+
+h1,h2,h3,h4,h5 {
+    width: 100vw;
+}
+
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -10,18 +21,20 @@ a{
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 60px;
 }
 
 header nav {
     display: flex;
     justify-content: flex-end;
+    background-color: #4776cf;
 }
 
 header nav .nav-right-section{
-    width: 250px;
+    width: 280px;
     height: auto;
+    color: white;
     display: flex;
     list-style: none;
     justify-content: center;
@@ -32,4 +45,25 @@ nav .nav-right-section a {
     margin-right: 10px;
     color: black;
 }
+ 
+p {
+    font-size: medium;
+}
+
+
+/*----------------------- Footer ------------------------- */
+
+footer{
+    width: 100vw;
+    margin-top: 2px;
+    border: 0.1 rem black solid;
+    height: 3rem;
+    background-color: #4776cf ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    align-self: flex-end;
+}
+
 
