@@ -6,7 +6,6 @@ h1,h2,h3,h4,h5 {
     width: 100vw;
 }
 
-
 body{
     display: flex;
     flex-wrap: wrap;
@@ -17,8 +16,17 @@ body{
 
 a{
     text-decoration: none;
-    cursor: pointer;
 }
+
+a:visited {
+    color: black;
+}
+
+a:hover, a:active {
+    color: rgb(255, 255, 255);
+}
+
+
 
 header {
     width: 100vw;
@@ -34,20 +42,30 @@ header nav {
 header nav .nav-right-section{
     width: 280px;
     height: auto;
-    color: white;
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
 }
 
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+}
+
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+
 nav .nav-right-section a {
     margin-right: 10px;
-    color: black;
 }
  
 p {
-    font-size: medium;
+    font-size: 20px;
 }
 
 
